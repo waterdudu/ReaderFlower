@@ -1,0 +1,35 @@
+//
+// Prefix header for all source files of the 'ReaderFlower' target in the 'ReaderFlower' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <DTCoreText.h>
+#endif
+
+
+#define DD_OFFLINE_DEBUG                  0
+#define DD_GET_STAR_ITEMS                 1
+#define DD_DB_DEBUG                       1
+#define DD_WEBVIEW_CONTENT_RENDER         0
+#define DD_READ_FEED_CONTENT_FROM_HTML_FILE            0
+#define DD_LOAD_SUBSCRIPTION_FROM_DB      0
+
+#define DD_DONOT_LOGIN_USE_EXIST_AUTH     0
+
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#   define DLog(...)
+#endif
+
+// ALog always displays output regardless of the DEBUG setting
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)

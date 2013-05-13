@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NSData(DDFeedItem) getCategoriesIdAndLabelFromSubscriptionDict:]:NSData+DDFeedItem.m">
+      </ContextState>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSDictionary)subscriptionGroupDict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NSData(DDFeedItem) subscriptionGroupList]:NSData+DDFeedItem.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NSData(DDFeedItem) getSubscriptionFromDict:]:NSData+DDFeedItem.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

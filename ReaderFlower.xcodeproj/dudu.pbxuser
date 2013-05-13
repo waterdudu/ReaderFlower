@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	8738AB8016B3302000E98BCF /* ReaderFlower */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ReaderFlower;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8738AB8116B3302000E98BCF /* testDDGoogleReader */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = testDDGoogleReader;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8738AB9816B3302600E98BCF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8738AB9916B3302600E98BCF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	876C5F1316EF428F00FC999A /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8738AB8016B3302000E98BCF /* ReaderFlower */;
+		activeTarget = 876C5F1B16EF429000FC999A /* ReaderFlower */;
+		codeSenseManager = 8738AB9916B3302600E98BCF /* Code sense */;
+		executables = (
+			8738AB8016B3302000E98BCF /* ReaderFlower */,
+			8738AB8116B3302000E98BCF /* testDDGoogleReader */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 380842016;
+			PBXWorkspaceStateSaveDate = 380842016;
+		};
+		sourceControlManager = 8738AB9816B3302600E98BCF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	876C5F1B16EF429000FC999A /* ReaderFlower */ = {
+		activeExec = 0;
+		executables = (
+			8738AB8016B3302000E98BCF /* ReaderFlower */,
+		);
+	};
+	879A03B416F12D1700B988CE /* testDDGoogleReader */ = {
+		activeExec = 0;
+		executables = (
+			8738AB8116B3302000E98BCF /* testDDGoogleReader */,
+		);
+	};
+}
