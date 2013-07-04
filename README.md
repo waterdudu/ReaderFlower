@@ -8,8 +8,6 @@ Currently, it is only support landscape mode on ipad.
 
 some screenshots 
 ![](https://github.com/waterdudu/ReaderFlower/raw/master/screenshots/1.png)
-![](https://github.com/waterdudu/ReaderFlower/raw/master/screenshots/2.png)
-![](https://github.com/waterdudu/ReaderFlower/raw/master/screenshots/3.png)
 
 
 
